@@ -1,0 +1,25 @@
+.navbar{
+    color: rgb(196, 20, 20);
+}
+.signup-button {
+    background-color: white;
+    color: black;
+}
+
+.login-button {
+    background-color: #007bff;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.logo img {
+    height: 50px; /* Sesuaikan tinggi logo */
+}
+
+footer{
+    background-color: blanchedalmond;
+}
+
