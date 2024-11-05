@@ -5,6 +5,7 @@
     padding: 8px 20px;
     border-radius: 50px;
     text-decoration: none;
+    transition: 0.3s background-color;
 }
 .login-button:hover{
     background-color:blanchedalmond;
@@ -45,21 +46,23 @@
     }
 }
 
-
-.bg-img{
-    background-image: url(../asset/gambar/hamster_bg_2.jpg); 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    height: 100vh; 
-    margin: 0;
-}
-h4{
-    margin-bottom: 4px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.content-section{
+    padding: 10px;
 }
 .card{
-    background-color: blanchedalmond;
+    padding: 10px 20px;
+    margin: 10px 10px;
+}
+.hamster-card {
+    width: 230px; /* Atur ukuran seragam untuk seluruh kartu */
+    margin: 10px 5px;
+    padding: 10px;
+}
+.hamster-card > .card-img-top {
+    width: 100%; /* Memastikan gambar sesuai lebar kartu */
+    height: 150px; /* Atur tinggi tetap agar semua gambar seragam */
+    object-fit: cover; /* Memastikan gambar sesuai area */
+    display: block;
 }
 
 
@@ -67,12 +70,15 @@ footer{
     background-color: blanchedalmond;
     padding: 30px 40px;
 }
+
 .container-card-footer{
     padding: 20px 20px;
     background-color: white;
 }
+
 .btn{
     background-color: burlywood;
+    color: white;
     border: none;
     border-radius: 25px;
 }

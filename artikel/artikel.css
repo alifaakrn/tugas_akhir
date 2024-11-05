@@ -5,10 +5,12 @@
     padding: 8px 20px;
     border-radius: 50px;
     text-decoration: none;
+    transition: 0.3s background-color;
 }
 .login-button:hover{
     background-color:blanchedalmond;
 }
+
 .navbar-toggler{
     border: none;
     font-size: 1.25rem;
@@ -46,33 +48,20 @@
 }
 
 
-.bg-img{
-    background-image: url(../asset/gambar/hamster_bg_2.jpg); 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    height: 100vh; 
-    margin: 0;
-}
-h4{
-    margin-bottom: 4px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.card{
-    background-color: blanchedalmond;
-}
-
 
 footer{
     background-color: blanchedalmond;
     padding: 30px 40px;
 }
+
 .container-card-footer{
     padding: 20px 20px;
     background-color: white;
 }
+
 .btn{
     background-color: burlywood;
+    color: white;
     border: none;
     border-radius: 25px;
 }

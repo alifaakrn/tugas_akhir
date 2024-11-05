@@ -5,6 +5,7 @@
     padding: 8px 20px;
     border-radius: 50px;
     text-decoration: none;
+    transition: 0.3s background-color;
 }
 .login-button:hover{
     background-color:blanchedalmond;
@@ -45,23 +46,24 @@
     }
 }
 
-
-.bg-img{
-    background-image: url(../asset/gambar/hamster_bg_2.jpg); 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    height: 100vh; 
-    margin: 0;
-}
-h4{
-    margin-bottom: 4px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 .card{
-    background-color: blanchedalmond;
+    background-color:blanchedalmond;
+    margin: 10px 70px;
+    padding: 20px 50px;
 }
-
+.btn{
+    background-color: burlywood;
+    color: white;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+    border: none;
+}
+.btn:hover{
+    background-color:rgb(229, 202, 167);
+}
 
 footer{
     background-color: blanchedalmond;
@@ -71,8 +73,12 @@ footer{
     padding: 20px 20px;
     background-color: white;
 }
+.card-footer{
+    padding:20px;
+}
 .btn{
     background-color: burlywood;
+    color: white;
     border: none;
     border-radius: 25px;
 }
